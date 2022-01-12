@@ -35,7 +35,7 @@ In the dataset provided, you will notice that there are three columns named 'cas
 
 ### Conclusions:
 
-cnt= 0.41+0.25 X yr - 0.08 X holiday - 0.2 X Spring - 0.32 X Light rain_Light snow_Thunderstorm - 0.090 X Mist_Cloudy +0.06 X 3 + 0.12 X 5 +0.15 X 6 +0.15 X 8 + 0.19 X 9 -0.05 X Sunday + 0.13 X 7 + 0.12 X 10
+cnt= 0.41+0.25 X yr - 0.08 X holiday - 0.2 X spring - 0.32 X Light_snow_rain - 0.090 X Mist_Cloudy +0.06 X 3 + 0.12 X 5 +0.15 X 6 +0.15 X 8 + 0.19 X 9 -0.05 X Sunday + 0.13 X 7 + 0.12 X 10
 
 r_squared : 80.29
 
