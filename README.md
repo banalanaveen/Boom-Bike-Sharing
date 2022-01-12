@@ -1,5 +1,4 @@
 # Boom-Bike-Sharing
-Model to understand the demand for shared bikes with the available independent variables
 
 Problem Statement
 A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
@@ -32,6 +31,17 @@ You might notice the column 'yr' with two values 0 and 1 indicating the years 20
 Model Building
 
 In the dataset provided, you will notice that there are three columns named 'casual', 'registered', and 'cnt'. The variable 'casual' indicates the number casual users who have made a rental. The variable 'registered' on the other hand shows the total number of registered users who have made a booking on a given day. Finally, the 'cnt' variable indicates the total number of bike rentals, including both casual and registered. The model should be built taking this 'cnt' as the target variable.
+
+
+Conclusions:
+
+cnt= 0.41+0.25 X yr - 0.08 X holiday - 0.2 X Spring - 0.32 X Light rain_Light snow_Thunderstorm - 0.090 X Mist_Cloudy +0.06 X 3 + 0.12 X 5 +0.15 X 6 +0.15 X 8 + 0.19 X 9 -0.05 X Sunday + 0.13 X 7 + 0.12 X 10
+
+r_squared : 80.29
+
+Final recommendations for the company:
+
+Demand for the bike rentals is higher in month of 3, 5 , 6, 8, 9 ,7, 10 and less demand during holidays, bad weather and weekends.
 
 
 Steps to model the usecase:
