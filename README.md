@@ -3,7 +3,12 @@ Model to understand the demand for shared bikes with the available independent v
 
 
 
+
+
+
+
 Steps to model the usecase:
+
 1.Reading and Understanding Data
 
 2.Visualising the Data
