@@ -41,8 +41,9 @@ r_squared : 80.29
 
 Final recommendations for the company:
 
-Demand for the bike rentals is higher in month of 3, 5 , 6, 8, 9 ,7, 10 and less demand during holidays, bad weather and weekends.
+## Demand for the bike rentals is higher in month of 3, 5 , 6, 8, 9 ,7, 10 and less demand during holidays, bad weather and weekends.
 
+ 
 
 Steps to model the usecase:
 
